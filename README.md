@@ -14,6 +14,6 @@ DRTP maintains a recursive hop-by-hop retransmission process using the subpaths-
 Boyang Zhou, Tong Ye, Wenjie Yu, and Chunming Wu. Enhancing Resilience of Phasor Data Acquisition in Industrial Networks of Power Transmission Grids. IEEE Globecom Workshop on SRINetworks. 2023 (under review). 
 
 ## Links to Other Related Source Code
-DRTP: https://github.com/zhouby-zjl/drtp/
-ndnSIM: https://github.com/named-data-ndnSIM/
+- DRTP: https://github.com/zhouby-zjl/drtp/
+- ndnSIM: https://github.com/named-data-ndnSIM/
 
