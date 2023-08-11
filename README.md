@@ -9,6 +9,7 @@ DRTP maintains a recursive hop-by-hop retransmission process using the subpaths-
 1. Build DRTP based on ndnSIM according to the instrutions available in https://github.com/zhouby-zjl/drtp/
 2. Copy the source code of HeuMPSG to the ndnSIM directory of DRTP
 3. To test HeuMPSG with DRTP, you can run:  ./waf --run scratch/drtp-sim-static-optmpsg --command-template="%s drtp-config-heumpsg.ini". To only test HeuMPSG, you can run: ./waf --run scratch/drtp-sim-static-optmpsg-cp --command-template="%s drtp-config-heumpsg-cp.ini". Wherein, the ini files are available in the root directory of HeuMPSG that can be flexibly redefined for test purposes. 
+4. Afterwards, you can find the simulation results under the SIM_LOG_DIR directory defined in the above ini file.
 
 ## HeuMPSG's Ongoing Papers
 Boyang Zhou, Tong Ye, Wenjie Yu, and Chunming Wu. Enhancing Resilience of Phasor Data Acquisition in Industrial Networks of Power Transmission Grids. IEEE Globecom Workshop on SRINetworks. 2023 (under review). 
@@ -17,3 +18,15 @@ Boyang Zhou, Tong Ye, Wenjie Yu, and Chunming Wu. Enhancing Resilience of Phasor
 - DRTP: https://github.com/zhouby-zjl/drtp/
 - ndnSIM: https://github.com/named-data-ndnSIM/
 
+ *********************************************************************************
+This work is licensed under CC BY-NC-SA 4.0
+(https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Copyright (c) 2021-2023 Boyang Zhou @ Zhejiang Lab
+
+This file is a part of "HeuMPSG"
+(https://github.com/zhouby-zjl/heumpsg/).
+
+This software is protected by the patents as well as the software copyrights.
+ **********************************************************************************
+ 
