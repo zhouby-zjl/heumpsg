@@ -6,14 +6,14 @@ DRTP maintains a recursive hop-by-hop retransmission process using the subpaths-
 - ./ndnSIM/ns-3/src/ndnSIM/model/lltc/lltc-resilient-routes-generation-for-drtp.hpp
 
 ## How to Run the Source Code of HeuMPSG?
-1. Build DRTP based on ndnSIM according to the instrutions available in https://github.com/zhouby-zjl/drtp/README.md
+1. Build DRTP based on ndnSIM according to the instrutions available in https://github.com/zhouby-zjl/drtp/
 2. Copy the source code of HeuMPSG to the ndnSIM directory of DRTP
 3. To test HeuMPSG with DRTP, you can run:  ./waf --run scratch/drtp-sim-static-optmpsg --command-template="%s drtp-config-heumpsg.ini". To only test HeuMPSG, you can run: ./waf --run scratch/drtp-sim-static-optmpsg-cp --command-template="%s drtp-config-heumpsg-cp.ini". Wherein, the ini files are available in the root directory of HeuMPSG that can be flexibly redefined for test purposes. 
 
 ## HeuMPSG's Ongoing Papers
 Boyang Zhou, Tong Ye, Wenjie Yu, and Chunming Wu. Enhancing Resilience of Phasor Data Acquisition in Industrial Networks of Power Transmission Grids. IEEE Globecom Workshop on SRINetworks. 2023 (under review). 
 
-## Links to Other Related Source Code
+## Links to the Source Codes of DRTP and ndnSIM
 - DRTP: https://github.com/zhouby-zjl/drtp/
 - ndnSIM: https://github.com/named-data-ndnSIM/
 
